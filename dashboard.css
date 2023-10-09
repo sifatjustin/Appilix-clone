@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+    /* padding-right: 40px; */
+    gap: 30px;
+}
+
+.dashboard {
+    /* flex: 2; */
+
+    width: 300px;
+}
+
+.logo {
+    padding-bottom: 50px;
+
+}
+
+.logo img {
+    width: 140px;
+    height: 75px;
+}
+
+.main_content {
+    /* flex: 6; */
+    width: 1000px;
+}
+
+/* dashboard part sidebar */
+.main_parts_one,
+.main_parts_two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.main_parts_one,
+.main_parts_two,
+img {
+    height: 20px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.separator .line {
+    height: 1px;
+    flex: 1;
+    background-color: grey;
+}
+
+.separator p {
+    padding: 0 10px;
+    color: gray;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar_logo {
+    height: 42px;
+    width: 42px;
+}
+
+/* main content part starts here  */
+.main_test{
+  width: 400px;
+    background: seashell;
+    padding: 30px;
+    border-radius: 6px;
+  
+}
+.test{
+    display: flex;
+    gap: 15px;
+}
+.app_image{
+    width: 80px;
+    height: 80px;
+}
+.flex{
+    display: flex;
+  
+    margin-top: 10px;
+
+}
+.tick{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
